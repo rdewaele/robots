@@ -1,0 +1,26 @@
+Specifications of hardware used
+-------------------------------
+Khepera III configuration:
+  - Khepera III Base
+  - Korebot II Board
+  - WiFi Card 
+  - KoreConnect Module
+
+Basic hardware specifications:
+(more details on the website)
+  - Processor   Intel XSCALE PXA-270 @ 600MHz
+  - RAM         128 MiB
+  - FLASH       32 MiB
+
+Khepera III Resources
+---------------------
+Available Khepera III configurations:
+http://www.k-team.com/mobile-robotics-products/khepera-iii/configuration
+
+Main Khepera III page, has links to specifications, configurations, linux on
+Khepera, Manuals/Downloads and Distributors.
+http://www.k-team.com/mobile-robotics-products/khepera-iii/introduction
+
+Main KoreBot II page, has links to specifications, manuals/downloads and
+distributors.
+http://www.k-team.com/mobile-robotics-products/korebot-ii/korebot-ii
