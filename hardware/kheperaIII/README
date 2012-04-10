@@ -24,3 +24,20 @@ http://www.k-team.com/mobile-robotics-products/khepera-iii/introduction
 Main KoreBot II page, has links to specifications, manuals/downloads and
 distributors.
 http://www.k-team.com/mobile-robotics-products/korebot-ii/korebot-ii
+
+Khepera III Toolbox:
+http://en.wikibooks.org/wiki/Khepera_III_Toolbox
+Description from the main page:
+  The Khepera III Toolbox is a collection of scripts, programs and code modules
+  for the Khepera III robot. The toolbox was developed by the Distributed
+  Intelligent Systems and Algorithms Laboratory (DISAL) at EPFL
+  (Lausanne, Switzerland) and comprises:
+  - Scripts to conveniently upload and run programs on multiple robots.
+  - Programs to interact with most robot features
+    (e.g. infrared sensors, motors).
+  - A development environment (using arm-linux-gcc and make) to easily program
+    and compile programs for the robot.
+  - A very straightforward API to access sensors and actuators on the robot.
+  - Install scripts to set up WLAN networking and other things.
+  The toolbox does not need the libkorebot and provides a faster, safer and
+  easier to use implementation of the same functionality.
