@@ -6,14 +6,21 @@ Khepera III configuration:
   - WiFi Card 
   - KoreConnect Module
 
-Basic hardware specifications:
-(more details on the website)
-  - Processor   Intel XSCALE PXA-270 @ 600MHz
-  - RAM         128 MiB
-  - FLASH       32 MiB
+Khepera III Base specification summary:
+  - Microcontroller   Microchip dsPIC 30F5011 (Manually verified.)
+  - RAM               4KiB
+  - FLASH             66KiB
 
-Khepera III Resources
----------------------
+Korebot II specification summary:
+  - Microcontroller   Marvell RTPXA270C5C624 (Manually verified.)
+                      (Note: The specifications on the website list the
+                       microcontroller as 'Intel XSCALE PXA-270 @ 600MHz',
+                       this actually is the architecture of the processor.)
+  - RAM               128 MiB
+  - FLASH             32 MiB
+
+Khepera III and Korebot II Resources
+------------------------------------
 Available Khepera III configurations:
 http://www.k-team.com/mobile-robotics-products/khepera-iii/configuration
 
@@ -41,3 +48,40 @@ Description from the main page:
   - Install scripts to set up WLAN networking and other things.
   The toolbox does not need the libkorebot and provides a faster, safer and
   easier to use implementation of the same functionality.
+
+Microcontroller Resources
+-------------------------
+dsPIC 30F5011:
+http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010346
+
+Marvell RTPXA270C5C624:
+http://www.marvell.com/application-processors/pxa-family/
+
+CPU information obtained from The Korebot II's Linux environment:
+(Output layout is modified to increase readability.)
+
+root@korebot2:~$ cat /proc/cpuinfo
+  Processor	       : XScale-PXA270 rev 7 (v5l)
+  BogoMIPS	       : 622.59
+  Features	       : swp half thumb fastmult edsp iwmmxt 
+  CPU implementer	 : 0x69
+  CPU architecture : 5TE
+  CPU variant	     : 0x0
+  CPU part	       : 0x411
+  CPU revision	   : 7
+  Cache type	     : undefined 5
+  Cache clean	     : undefined 5
+  Cache lockdown	 : undefined 5
+  Cache format	   : Harvard
+  I size		       : 32768
+  I assoc		       : 32
+  I line length	   : 32
+  I sets		       : 32
+  D size		       : 32768
+  D assoc		       : 32
+  D line length	   : 32
+  D sets		       : 32
+  
+  Hardware	       : The Gumstix Platform
+  Revision	       : 0000
+  Serial		       : ffff15c900cc3fd3
