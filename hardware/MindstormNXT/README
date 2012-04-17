@@ -9,10 +9,9 @@ Specifications of hardware used
                     256 KB FLASH
                     64 KB RAM
 
-Co-processor: ATmega48
-              4 KB FLASH
-              512 Byte RAM
-              8 MHz
+ - Co-processor: ATmega48
+                 4 KB FLASH
+                 512 Byte RAM
 
 Lego Mindstorms NXT Resources
 -----------------------------
