@@ -29,3 +29,26 @@ This site covers several things NXT:
   - NXT Hardware Information
   - Segger SAM-ICE USB Commands
   - A page with more links!
+
+LEJOS - Java for LEGO Mindstorms
+--------------------------------
+http://lejos.sourceforge.net/
+
+ROS - Robot Operating System
+----------------------------
+ROS announcement article:
+http://www.ros.org/news/2010/08/robots-using-ros-lego-nxt.html
+
+Lego Digital Designer (LDD) support:
+http://www.willowgarage.com/blog/2010/09/16/robots-using-ros-part-v-meka-qbo-mini-pr2-lego-nxt
+ "Lego NXT: You can now connect Lego Mindstorms NXT robots to ROS and even
+  convert models from Lego Digital Designer."
+For LDD: see http://ldd.lego.com/
+
+Using ROS with Mindstorms NXT:
+http://www.ros.org/wiki/nxt
+
+NXT-Python
+----------
+nxt-python is a python driver/interface for the Lego Mindstorms NXT robot.
+http://code.google.com/p/nxt-python/
