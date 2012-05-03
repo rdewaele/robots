@@ -1,0 +1,2 @@
+This directory contains scripts that help testing the validitiy of a
+GNU toolchain, by compiling leJOS for the LEGO Mindstorms NXT.

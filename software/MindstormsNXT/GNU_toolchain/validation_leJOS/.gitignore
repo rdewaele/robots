@@ -1,0 +1,3 @@
+# ignore downloaded lejos sources and examples
+leJOS_NXJ_0.9.1beta*zip
+leJOS_NXJ_0.9.1beta*tar.gz
