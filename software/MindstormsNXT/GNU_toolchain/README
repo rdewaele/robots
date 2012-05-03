@@ -1,0 +1,9 @@
+Homepage
+--------
+https://github.com/rdewaele/schnapps
+
+Introduction
+------------
+Schnapps is essentially a combination of two makefiles and a perl script to
+automate building a GNU toolchain as much as possible. Currently it builds an
+arm-elf toolchain by default, using newlib as C library implementation.
