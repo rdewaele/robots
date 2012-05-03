@@ -1,0 +1,29 @@
+Homepage
+--------
+http://lejos.sourceforge.net
+
+Introduction (http://lejos.sourceforge.net/nxj.php)
+------------
+What is leJOS?
+leJOS (pronounced like the Spanish word "lejos" for "far") is a tiny Java
+Virtual Machine. In 2006 it was ported to the LEGO NXT brick. leJOS NXJ
+includes all the classes in the NXJ API as well as the tools used to upload
+code to the NXT brick.
+
+leJOS NXJ offers the following:
+  * Object oriented language (Java)
+  * Preemptive threads (tasks)
+  * Arrays, including multi-dimensional
+  * Recursion
+  * Synchronization
+  * Exceptions
+  * Java types including float, long, and String
+  * Most of the java.lang, java.util and java.io classes
+  * A Well-documented Robotics API
+
+How to work with leJOS
+----------------------
+http://lejos.sourceforge.net/nxt/nxj/tutorial/index.htm
+
+This tutorial also covers installing leJOS on the NXT platform, in the
+'getting started' chapter, in addition to using leJOS itself.
