@@ -1,0 +1,15 @@
+This folder contains ROS Fuerte workspaces.
+To enter ('activate') a specific workspace, one can run its corresponding shell
+script: enter_workspace.sh <workspace folder name>.
+The workspaces have been initialized with rosws.
+
+For more information about ROS workspaces / overlays, and more specifically for
+the Fuerte release, please see
+http://www.ros.org/wiki/fuerte/Installation/Overlays
+
+For the installation of ROS itself, please refer to their guide for ubuntu:
+http://www.ros.org/wiki/fuerte/Installation/Ubuntu
+The platform on which the workspaces in this folder are developed and
+maintained is currently Ubuntu 12.04.1 LTS (Precise Pangolin). The author's
+intention is to keep the main development platform aligned to the ubuntu LTS
+releases (normally every two years).
